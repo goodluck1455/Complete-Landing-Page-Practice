@@ -1,0 +1,245 @@
+body {
+    font-family: "Roboto", sans-serif;}
+
+
+
+/*------------------------The CSS of of the Head section begins here ------------------------
+------------------------------------------------------------------------------------*/
+.B-brand{
+ border: 1px solid white;
+ font-size: 16px!important;
+ padding: 8px!important;
+ border-radius: 5%;
+}
+nav {
+    color: white;
+}
+nav a{
+    color: white;
+}
+
+nav a:hover{
+    color: rgb(175, 170, 170);
+}
+.header {
+    background: url(https://s3-ap-southeast-2.amazonaws.com/appello-corpsite/wp-content/uploads/2019/11/03110121/header-bg-11.jpg) top center no-repeat;
+    background-size: cover;
+    background-color: #0d0d33;
+    min-height: 700px;
+    padding: 30px 0;
+    color: #fff;
+}
+.header-info{
+    margin-top: 8rem;
+    
+}
+.navbar-toggler-icon{
+color: white;
+font-weight: bold;
+}
+.header-info button{
+    font-size: 17px;
+    
+}
+
+/*----------------Headbar section Ends here-----------------------------------------*/
+.headbar{
+    background: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+    margin-top: -10rem;
+    position: relative;
+    color: black;
+    
+}
+.headbar h3{
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 400;
+}
+.project-title{
+border-right: 1px solid rgba(14, 13, 13, 0.3);
+
+}
+
+.project-title p{
+    color: #737373;
+}
+.project-desc__list{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;  
+  color: #737373;
+  font-size: 16px;
+  margin-top: 6rem;
+   
+}
+
+@media screen and (max-width: 500px){
+    .project-desc__list{
+    grid-template-columns: 1fr 1fr;}
+
+    .project-title{
+        text-align: center;
+        border-bottom: 1px solid rgba(14, 13, 13, 0.3);
+        padding-bottom: 20px;
+    }
+
+    .project-title p{
+       margin: auto;
+    }
+
+}
+
+.A-nut{
+    position: relative;
+}
+.A-nut::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #0A8bfe;
+    border-radius: 50%;
+    left:-1rem; 
+    top: 8px;
+}
+/*---------------------Section title begins here    
+--------------------------------------------------*/
+.section__title{
+margin-top: 6rem;
+}
+.section__title p{
+    width: 50%;
+    text-align: center;
+    margin-left:  22%;
+    color: #737373;
+}
+
+.preview button{
+    font-size:24px;
+    font-family: sans-serif;
+    border: none;
+    background: none;
+}
+.preview button:hover{
+    color: #0A8bfe;
+}
+.active, .preview button:focus{
+    color: #0A8bfe;
+    outline: none;
+}
+
+
+
+.B-show{
+    display: none;
+}
+.C-show{
+    display: none;
+}
+
+.stage-item{
+border: 1px solid #E8E8E8;}
+.A-contact{
+    margin-left: 42%;
+    padding: 15px 49px!important;
+    font-size: 20px!important;
+}
+
+/*----------------------CSS of our work preview begins here------------------------------*/
+.Our-work{
+    background-color:#0d0d33;
+   height: 840px;
+   color: white;
+}
+.work-title{
+    padding: 6rem;
+    font-size: 42px;
+    font-weight: 400px;
+}
+.our-work-numbers h3{
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.headbar2{
+    background: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+    margin-top: -20rem;
+    position: relative;
+    color: black;
+    
+}
+.headbar2 img{
+    width: 100%;
+}
+
+
+.Slider-title{
+margin-top: 6rem;
+color: black;
+}
+
+.Slider-title h3{
+font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 25px;
+    color: black;}
+
+.slider-image{
+    width: 14%;
+    display: flex;
+    
+}
+.Slider-title h4{
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 50px;
+    margin-bottom: 16px;
+     color: black;     }
+    .B-contact{
+        
+        padding: 12px 49px!important;
+        font-size: 20px!important;}
+
+        .carousel-control-prev{
+            background: #0A8bfe;
+            height: 90px;
+            width: 4%!important;
+            
+            margin-top: 18rem;
+            box-shadow: 2px 2px 5px black;
+        }
+        .carousel-control-next{
+            background: #0A8bfe;
+            height: 90px;
+            width: 4%!important;
+            
+            margin-top: 18rem;
+            box-shadow: 2px 2px 5px black;
+            
+        }
+        .section-clients-list img{
+            max-width: 200px;
+            -webkit-filter: grayscale(1);
+            /* filter: grayscale(1);  */
+            -webkit-transition: all 0.2s ease;
+            -o-transition: all 0.2s ease;
+            -moz-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+            background-color: initial;
+            background-blend-mode: multiply;
+        }
+
+        .section-clients-list img:hover {
+            -webkit-filter: grayscale(0);
+            filter: grayscale(0);}
+            
+            .jumbotron{
+                background-color: #fdfafa!important;
+            }
+
+       /*--------CCS OF The form section begins here------------------  */
+       
+        
