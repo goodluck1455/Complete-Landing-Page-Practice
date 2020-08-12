@@ -243,3 +243,61 @@ font-weight: 500;
        /*--------CCS OF The form section begins here------------------  */
        
         
+
+
+
+/*--------------------Media query for mobile devices-----------------------------------*/
+@media only screen and (max-width:387px){
+    .headbar{margin-top: -4rem;
+      
+    }
+
+    .header-info{
+        text-align: center;
+        margin-left: 24px;}
+
+        .header-info p{font-weight: bold;} 
+
+        .stage-item{margin: 20px;}
+
+        .project-desc__list{
+            grid-template-columns: 1fr;
+              margin: 40px 4rem;
+              grid-gap: 30px; 
+            padding-left: 5px;}
+
+              .A-contact{margin-left: 20%;} 
+              
+              .work-title{
+                padding: 3rem;
+                font-size: 30px;}
+                .our-work-numbers{
+                    text-align: center;
+                    margin-top:-2.4rem;}
+
+                    .headbar2{margin-top: -18rem;}
+
+                    .Slider-title{
+                        margin-top: 1rem;
+                        text-align: center;}
+
+                        .slider-image{
+                            margin-left: 5.5rem;}
+                            
+                            .B-contact{
+                               margin-left: 4rem; }
+                               .jumbotron img{
+                                   margin-left: -1rem;}
+                                   
+                                   .section__title{
+                                     margin-top: 2rem;
+                                    }
+                                    .section__title p{
+                                        width: 90%;
+                                        text-align: center;
+                                        margin-left:  5%;
+                                       font-weight: bold;
+                                       padding-top: 4px;}
+
+           
+}
