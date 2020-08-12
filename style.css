@@ -248,7 +248,7 @@ font-weight: 500;
 
 /*--------------------Media query for mobile devices-----------------------------------*/
 @media only screen and (max-width:387px){
-    .headbar{margin-top: -4rem;
+    .headbar{margin-top: -2rem;
       
     }
 
@@ -299,5 +299,8 @@ font-weight: 500;
                                        font-weight: bold;
                                        padding-top: 4px;}
 
-           
+
+                                       .carousel-control-prev{width: 8%!important;}
+                                    .carousel-control-next{ width: 8%!important;}
+         
 }
