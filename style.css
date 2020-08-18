@@ -1,3 +1,31 @@
+:root{
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+
+
+
+
 body {
     font-family: "Roboto", sans-serif;}
 
@@ -223,7 +251,7 @@ font-weight: 500;
         .section-clients-list img{
             max-width: 200px;
             -webkit-filter: grayscale(1);
-            /* filter: grayscale(1);  */
+            filter: grayscale(1); 
             -webkit-transition: all 0.2s ease;
             -o-transition: all 0.2s ease;
             -moz-transition: all 0.2s ease;
@@ -242,7 +270,122 @@ font-weight: 500;
 
        /*--------CCS OF The form section begins here------------------  */
        
-        
+       .form-section{
+        background: url(https://s3-ap-southeast-2.amazonaws.com/appello-corpsite/wp-content/uploads/2019/11/03110202/section-form-11.jpg) right center no-repeat;
+        background-clip: content-box;
+        -webkit-background-size: cover;
+        background-size: cover;
+         min-height: 655px;
+       
+       }
+        .A-form{ 
+            width: 50%;
+            background: white;
+            box-shadow: 2px 2px 5px rgb(77, 75, 75, 0.4);
+            position: relative;
+            top: 2rem;
+            margin-left: -2.5rem;
+        }
+
+        .A-form form{
+            padding: 40px;
+
+        }
+        .A-form form input{
+            padding: 1.5rem;
+        }
+        .A-form form select {
+            padding: 10px;
+            border: 1px solid #ced4da;
+             border-radius: .25rem;
+            
+            color: #495057;
+            width:100%;
+            height:50px;
+            
+        }
+
+        .A-form form select:focus{
+            border: 4px solid rgb(113, 169, 233, 0.5); 
+            border-radius: 5px;
+          transition: 1s;
+          outline: none;
+            
+        }
+        .A-form form input:focus{
+            transition: 1s;
+        }
+
+
+        .A-form textarea{
+            resize: none;
+        }
+        .A-form button{
+            font-size: 22px;
+        }
+
+
+ /*--------CCS OF The form section ends here------------------  */
+
+
+
+
+ /* ---------CSS of the approved section begins here -------*/
+ .approved-section{
+     margin-top: 7rem;
+ background-color: #fdfafa;}
+
+ .approved-image img{
+     width:15%;
+    
+ }
+
+ .approved-box{
+    margin-top: 4rem;}
+ 
+
+    .A-approved-section{
+        margin-top: 4rem;  
+    }
+.product-top{
+    cursor: pointer;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.product-top:hover{
+    transform: scale(1.1);
+    transform-origin: bottom;
+    transition: 1s;
+}
+
+.product-top img{
+    width: 100%;
+    
+}
+.item-heading h4{
+    
+    margin-top: 35px;
+    line-height: 38px;
+    
+}
+.item-heading p{
+color: #737373;
+padding-top: 14px;}
+ 
+
+.last-item-heading{
+    margin-top: 20px;
+    line-height: 38px;
+}
+#last-p{
+    padding-top: 1px;
+    color: #737373;  
+}
+
+ 
+
+/*--------- CSS of the approved section ends here------- */
 
 
 
@@ -285,7 +428,9 @@ font-weight: 500;
                             margin-left: 5.5rem;}
                             
                             .B-contact{
-                               margin-left: 4rem; }
+                               margin-left: 4rem;
+                               }
+
                                .jumbotron img{
                                    margin-left: -1rem;}
                                    
@@ -302,5 +447,22 @@ font-weight: 500;
 
                                        .carousel-control-prev{width: 8%!important;}
                                     .carousel-control-next{ width: 8%!important;}
+
+
+                                    .A-form{ 
+                                        width: 90%;}
+                                        .A-form form select {
+                                            width:100%;}
+
+                                            .approved-box{
+                                                margin-left: 2rem;
+                                            }
+                                            .A-approved-section{text-align: center;} 
+                                            .product-top{margin-bottom: 2rem;}      
+
+                                            .section-clients-list img{
+                                                justify-item:center;
+                                            }
+
          
 }
