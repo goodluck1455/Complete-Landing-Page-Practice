@@ -453,16 +453,24 @@ padding-top: 14px;}
 
 
                                     .A-form{ 
-                                        width: 90%;}
+                                        width: 90%;
+                                        top: 13rem; 
+                                    margin-left: 1rem;}
+
+                                    .A-form button{width: 100%}
                                         .A-form form select {
-                                            width:100%;}
+                                            width:100%;
+                                           }
 
                                             .approved-box{
                                                 margin-left: 2rem;
                                             }
                                             .A-approved-section{text-align: center;} 
-                                            .product-top{margin-bottom: 2rem;}      
-
+                                            .product-top{margin-bottom: 2rem;} 
+                                            .approved-section{margin-top: 15rem;}     
+                                            .form-section{
+                                                min-height: 10%;
+                                            }
                                             
 
          
