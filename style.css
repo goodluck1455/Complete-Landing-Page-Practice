@@ -59,8 +59,8 @@ nav a:hover{
 }
 .header-info{
     margin-top: 8rem;
-    
 }
+    
 .navbar-toggler-icon{
 color: white;
 font-weight: bold;
@@ -248,16 +248,13 @@ font-weight: 500;
             box-shadow: 2px 2px 5px black;
             
         }
+
+        /* section-client */
+
         .section-clients-list img{
             max-width: 200px;
             -webkit-filter: grayscale(1);
-            filter: grayscale(1); 
-            -webkit-transition: all 0.2s ease;
-            -o-transition: all 0.2s ease;
-            -moz-transition: all 0.2s ease;
-            transition: all 0.2s ease;
-            background-color: initial;
-            background-blend-mode: multiply;
+            filter: grayscale(1);   
         }
 
         .section-clients-list img:hover {
@@ -267,6 +264,7 @@ font-weight: 500;
             .jumbotron{
                 background-color: #fdfafa!important;
             }
+            /* section-client ends here */
 
        /*--------CCS OF The form section begins here------------------  */
        
@@ -460,9 +458,7 @@ padding-top: 14px;}
                                             .A-approved-section{text-align: center;} 
                                             .product-top{margin-bottom: 2rem;}      
 
-                                            .section-clients-list img{
-                                                justify-item:center;
-                                            }
+                                            
 
          
 }
